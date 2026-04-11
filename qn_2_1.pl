@@ -1,5 +1,6 @@
-
+% =========================
 % Royal Family Facts
+% =========================
 
 female(elizabeth).
 female(ann).
@@ -21,26 +22,32 @@ older(ann, andrew).
 older(ann, edward).
 older(andrew, edward).
 
+% =========================
 % Helper Predicate
+% =========================
 
 royal_child(X) :- parent(elizabeth, X).
 
 % =========================
 % OLD SUCCESSION RULE
 % =========================
-% Males before females.
-% Within same gender, birth order applies.
 
 precedes_old(X, Y) :-
+    royal_child(X),
+    royal_child(Y),
     male(X),
     male(Y),
     older(X, Y).
 
 precedes_old(X, Y) :-
+    royal_child(X),
+    royal_child(Y),
     female(X),
     female(Y),
     older(X, Y).
 
 precedes_old(X, Y) :-
+    royal_child(X),
+    royal_child(Y),
     male(X),
     female(Y).
