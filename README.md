@@ -10,9 +10,9 @@ This repository contains solutions for SC3000 Lab Assignment 2.
 
 ## Project Structure
 
-- `qn_1_2.pl`: Exercise 1 — Smart Phone Rivalry knowledge base (facts and rules)
-- `qn_2_1.pl`: Exercise 2.1 — Old succession rule (male-preference primogeniture)
-- `qn_2_2.pl`: Exercise 2.2 — New succession rule (birth-order only)
+- `qn_1_2.pl`: Exercise 1 Smart Phone Rivalry knowledge base (facts and rules)
+- `qn_2_1.pl`: Exercise 2.1 Old succession rule (male-preference primogeniture)
+- `qn_2_2.pl`: Exercise 2.2 New succession rule (birth-order only)
 
 ## Requirements
 
