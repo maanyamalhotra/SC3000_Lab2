@@ -1,6 +1,6 @@
 # SC3000 Lab 2
 
-Team: greedy for A+ (Tutorial Group SCSC) 
+Team: greedy for A+ (Tutorial Group SCSC); 
 Team members: Malhotra Maanya (U2423116C) and Azad Saba Fathima (U2423595F)
 
 ## Overview
