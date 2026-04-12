@@ -23,21 +23,21 @@ This repository contains solutions for SC3000 Lab Assignment 2.
 Load and query Exercise 1:
 
 ```prolog
-?- ['qn_1_2.pl'].
+?- ['greedy_for_a+_qn_1_2.pl'].
 ?- unethical(stevey).
 ```
 
 Load and query Exercise 2 (old rule):
 
 ```prolog
-?- ['qn_2_1.pl'].
+?- ['greedy_for_a+_qn_2_1.pl'].
 ?- precedes_old(X, Y).
 ```
 
 Load and query Exercise 2 (new rule):
 
 ```prolog
-?- ['qn_2_2.pl'].
+?- ['greedy_for_a+_qn_2_2.pl'].
 ?- precedes_new(X, Y).
 ```
 
